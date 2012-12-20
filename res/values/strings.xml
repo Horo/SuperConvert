@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Super Convert</string>
+<string name="menu_settings">Settings</string>
+<string name="title_activity_main_convert">Demo Conversión Temperaturas</string>
+<string name="titulo">Conversor de Temperatura</string>
+<string name="btn">Convertir</string>
+<string name="het">Temperatura a convertir</string>
+<string name="c">Celsius</string>
+<string name="f">Fahrenheit</string>
+
+</resources>

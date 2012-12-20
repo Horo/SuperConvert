@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+
+<TextView
+android:id="@+id/tv1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_margin="16dp"
+android:textSize="20sp"
+android:textStyle="bold"
+android:text="@string/titulo" />
+
+<EditText
+android:id="@+id/et"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="16dp"
+android:ems="10"
+android:hint="@string/het"
+android:inputType="number" >
+
+<requestFocus />
+
+</EditText>
+
+<RadioGroup
+android:id="@+id/radioGroup1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+>
+
+<RadioButton
+android:id="@+id/r0"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:checked="true"
+android:text="@string/c" />
+
+<RadioButton
+android:id="@+id/r1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/f" />
+</RadioGroup>
+
+<Button
+android:id="@+id/btn1"
+android:layout_width="160dp"
+
+android:layout_height="wrap_content"
+android:layout_margin="10dp"
+android:onClick="convertir"
+android:text="@string/btn"
+android:layout_gravity="center"
+
+/>
+
+</LinearLayout>
